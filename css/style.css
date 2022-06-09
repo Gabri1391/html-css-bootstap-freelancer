@@ -3,6 +3,7 @@
 header{
     height: 150px;
     background-color: #2C3E50;
+    max-width: 100%;
 }
 
 footer{
@@ -10,11 +11,6 @@ footer{
     background-color: #2C3E50;
     line-height: 80px;
     font-size: 0.8rem;
-}
-
-.container{
-    max-width: 1200px;
-    width: 100%;
 }
 
 ul{
