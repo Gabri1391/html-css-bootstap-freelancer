@@ -1,0 +1,40 @@
+/* Palette colori */
+
+header{
+    height: 150px;
+    background-color: #2C3E50;
+}
+
+/* Utils */
+.bg-aqua{
+    background-color: #1ABC9C;
+}
+
+.dark-blue{
+    color: #2C3E50;
+}
+
+.img{
+    min-height: 200px;
+    border:1px solid black;
+}
+
+.bg-red{
+    background-color: #BA4B63;
+}
+
+.bg-light-blue{
+    background-color: #1EA4B6;
+}
+
+.bg-cyan{
+    background-color: #1C83C1;
+}
+
+.bg-blue{
+    background-color: #0E38B5;
+}
+
+.bg-beige{
+    background-color: #CCB2A3;
+}
