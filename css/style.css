@@ -5,9 +5,20 @@ header{
     background-color: #2C3E50;
 }
 
+footer{
+    height: 80px;
+    background-color: #2C3E50;
+    line-height: 80px;
+    font-size: 0.8rem;
+}
+
 /* Utils */
 .bg-aqua{
     background-color: #1ABC9C;
+}
+
+.colour-aqua{
+    color: #1ABC9C;
 }
 
 .dark-blue{
@@ -37,4 +48,8 @@ header{
 
 .bg-beige{
     background-color: #CCB2A3;
+}
+
+.bg-dark-grey{
+    background-color: #3A546D;
 }
