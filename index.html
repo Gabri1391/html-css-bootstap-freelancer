@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!-- Nostro stile -->
@@ -15,126 +17,183 @@
 <body>
     
     <!-- HEADER -->
-    <header class="container-md d-flex justify-content-between align-items-center">
+    <header class="container d-flex justify-content-between align-items-center">
             <h1 class="text-white ps-3">START BOOTSTRAP</h1>
             <nav>
-            <ul class="me-3 d-md-none text-white">
-                <li>Lista</li>
-                <li>Lista</li>
-                <li>Lista</li>
+            <ul class="me-3 d-md-none text-white border-0">
+                <i class="bi bi-card-list"></i>
             </ul>
 
-            <ul class="list-inline d-none d-md-block me-md-3 text-white">
-                <li class="list-inline-item">lista</li>
-                <li class="list-inline-item">lista</li>
-                <li class="list-inline-item">lista</li>
+            <ul class="list-inline d-none d-md-block border-0 me-md-3 text-white">
+                <li class="list-inline-item">
+                    <a class="text-decoration-none text-white" href="#">PORTFOLIO</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="text-decoration-none text-white" href="#">ABOUT</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="text-decoration-none text-white" href="#">CONTACT</a>
+                </li>
             </ul>
             
         </nav>
     </header>
     
-        <div class="container-md">
     <!-- MAIN -->
     <main>
-        <div class="row">
-            <div class="col bg-aqua">
-                <div class="row text-center p-3">
-                    <div class="col">
-                        <img src="" alt="immagine start">
-                        <div class="text-white h2"> START BOOTSTRAP </div>
-                        <div class="text-white h4">&star;</div>
-                        <div class="text-white h4"> GRAPHIC ARTIST - WEB DESIGNER -ILLUSTRATOR </div>
+         <!-- section start -->
+        <section class="start">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col bg-aqua">
+                        <div class="row text-center p-3">
+                            <div class="col">
+                                <div class="card-cover m-auto ">
+                                    <img src="img/avatar.svg" alt="immagine start">
+                                </div>
+                                <div class="text-white h2 pt-3"> START BOOTSTRAP </div>
+                                <i class="bi bi-star-fill text-white pt-3"></i>
+                                <div class="text-white h4 pt-3"> GRAPHIC ARTIST - WEB DESIGNER -ILLUSTRATOR </div>
+                            </div>
+                            
+                        </div>
                     </div>
-                    
                 </div>
             </div>
-        </div>
-        
-        <div class="row">
-            <div class="col bg-white">
-                <div class="row text-center p-3">
-                    <div class="col">
-                        <div class="text-dark-blue h2"> PORTFOLIO </div>
-                        <div class="text-dark-blue h4">&star;</div>
-                        <div class="row flex-column flex-md-row p-3">
-                            <div class="col bg-red my-3">
-                                <img class="img" src="" alt="img1">
-                            </div>
-                            <div class="col col-md-6 col-lg-4 bg-light-blue my-3">
-                                <img class="img" src="" alt="img2">
-                            </div>
-                            <div class="col col-md-6 col-lg-4 bg-black my-3">
-                                <img class="img" src="" alt="img3">
-                            </div>
-                            <div class="col col-md-6 col-lg-4 bg-cyan my-3">
-                                <img class="img" src="" alt="img4">
-                            </div>
-                            <div class="col col-md-6 col-lg-4 bg-blue my-3">
-                                <img class="img" src="" alt="img5">
-                            </div>
-                            <div class="col col-md-6 col-lg-4 bg-beige my-3">
-                                <img class="img" src="" alt="img6">
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col bg-white">
+                        <div class="row text-center p-3">
+                            <div class="col">
+                                <div class="text-dark-blue h2"> PORTFOLIO </div>
+                                <i class="bi bi-star-fill text-dark-blue"></i>
+                                <div class="row flex-column flex-md-row p-3">
+                                    <div class="col my-3 p-md-2">
+                                        <div class="card bg-red ">
+                                            <img src="img/cabin.png" alt="Cabin">
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6 col-lg-4 my-3 p-md-2">
+                                        <div class="card bg-light-blue">
+                                            <img src="img/cake.png" alt="Cake">
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6 col-lg-4 my-3 p-md-2">
+                                        <div class="card bg-black">
+                                            <img src="img/circus.png" alt="Circus">
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6 col-lg-4 my-3 p-md-2">
+                                        <div class="card bg-cyan">
+                                            <img src="img/game.png" alt="Game">
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6 col-lg-4 my-3 p-md-2">
+                                        <div class="card bg-blue">
+                                            <img src="img/safe.png" alt="Safe">
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6 col-lg-4 my-3 p-md-2">
+                                        <div class="card bg-beige">
+                                            <img src="img/submarine.png" alt="Submarine">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="row text-center">
-            <div class="col bg-aqua text-white py-3">
-                <div class="h3">About</div>
-                <div >&star;</div>
-                <p class="col-6 offset-3 px-3 mb-3"> Freelance is a Bootstrap theme created by Start Bootstrap. The download included the complete source files including HTML,CSS & JS,as well as otional LESS stylesheet for easy customization.</p>
-                <p class="col-6 offset-3 px-3 mb-3"> Freelance is a Bootstrap theme created by Start Bootstrap. The download included the complete source files including HTML,CSS & JS,as well as otional LESS stylesheet for easy customization.</p>
-                <a class="text-white text-decoration-none" href="#">Download</a>
-            </div>
-        </div>
-        
-        <div class="row text-center">
-            <div class="col bg-white text-dark-blue my-3">
-                <div class="h3 mt-3">CONTACT ME</div>
-                <div class=>&star;</div>
-                <div class="row">
-                    <div class="col-6 offset-3 text-start">
-                        <div class="mb-2 pb-3 border-bottom">Name</div>
-                        <div class="mb-2 pb-3 border-bottom">E-Mail Adresse</div>
-                        <div class="mb-2 pb-3 border-bottom">Phone Number</div>
-                        <div class="mb-2 pb-3 border-bottom">Message</div>
-                        <a class="text-white bg-aqua p-1  text-decoration-none" href="#">Send</a>
+        <section class="about">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col bg-aqua text-white py-3">
+                        <div class="row">
+                            <div class="col">
+                                <div class="h3">ABOUT</div>
+                                <div >&star;</div>
+                                <div class="row d-flex flex-md-row">
+                                    <p class="col-6 offset-3 col-md-6 offset-md-0 px-3 mb-3"> Freelance is a Bootstrap theme created by Start Bootstrap. The download included the complete source files including HTML,CSS & JS,as well as otional LESS stylesheet for easy customization.</p>
+                                    <p class="col-6 offset-3 col-md-6 offset-md-0 px-3 mb-3"> Freelance is a Bootstrap theme created by Start Bootstrap. The download included the complete source files including HTML,CSS & JS,as well as otional LESS stylesheet for easy customization.</p>
+                                    
+                                </div>
+                                <a class="text-white text-decoration-none border border-white ellipse p-2" href="#">Download</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
             </div>
-        </div>
+        </section>
 
-        <div class="row text-center">
-            <div class="col bg-dark-grey text-white">
-                <div class="row w-100 flex-column flex-md-row text-center py-3">
-                    <div class="col col-md-4 py-3">
-                        <div class="h4">LOCATION</div>
-                        <p>2215 John Daniel Drive Clark, MO 54243</p>
-                    </div>
-                    <div class="col col-md-4 py-3">
-                        <div class="h4">AROUND THE WEB</div>
-                    </div>
-                    <div class="col-6 offset-3 col-md-4 offset-md-0 py-3">
-                        <div class="h4">ABOUT FREELANCER</div>
-                        <p>Freelance is a free to use,open source Bootestrap theme created by <div class="colour-aqua">Start Bootstrap</div></p>
+        <section class="contact">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col bg-white text-dark-blue my-3">
+                        <div class="h3 mt-3">CONTACT ME</div>
+                        <div class=>&star;</div>
+                        <div class="row">
+                            <div class="col-6 offset-3 text-start">
+                                <div class="mb-2 pb-3 border-bottom">Name</div>
+                                <div class="mb-2 pb-3 border-bottom">E-Mail Adresse</div>
+                                <div class="mb-2 pb-3 border-bottom">Phone Number</div>
+                                <div class="mb-3 pb-3 border-bottom">Message</div>
+                                <a class="text-white bg-aqua p-1  text-decoration-none" href="#">Send</a>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
-                
             </div>
-        </div>
+        </section>
     </main>
-  </div>
-
     <!-- FOOTER -->
-    <footer class=" container-md text-center text-white">
-        Copyright Your Website 2022
+
+    <footer>
+        <setion class="footer-top">
+            <div class="container">
+                <div class="row text-center text-white bg-dark-grey">
+                    <div class="col-12 col-md-4 py-3">
+                        <div class="h4">LOCATION</div>
+                        <p>2215 John Daniel Drive Clark,MO 54243</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="h4">Around the Web</div>
+                        <i class="bi bi-facebook px-1"></i>
+                        <i class="bi bi-google px-1"></i>
+                        <i class="bi bi-twitter px-1"></i>
+                        <i class="bi bi-linkedin px-1"></i>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="h4">About Freelance</div>
+                        <p>Freelance is free to use, open spurce Bootstrap themes ceated By <span class="aqua">Bootstrap Start.</span></p>
+                    </div>
+                </div>
+            </div>
+        </setion>
+
+        <section class="footer-bottom">
+            <div class="container-fluid">
+                <div class="row text-center text-white bg-dark-blue ">
+                    <div class="col">
+                        <p>Copyright <i class="bi bi-badge-cc"></i> Your Website 2022</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
+
 </body>
 </html>
+
+  
+
+    
     
 
 
